@@ -32,5 +32,4 @@ fix-facebook
     
     }).observe(home_stream, {childList:true});
 
-​
     Array.prototype.forEach.call(home_stream.childNodes, testNode);
